@@ -1,0 +1,21 @@
+﻿<#@ template  hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="SqlSugar" #>
+<#@ import namespace="Newtonsoft.Json" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Web" #>
+<#@ assembly name="$(SolutionDir)\Nurse.Entities\T4\Newtonsoft.Json.dll" #>
+<#@ assembly name="$(SolutionDir)\Nurse.Entities\T4\SqlSugar.dll" #>
+<# 
+     //当前项目目录
+    string projectDir = Host.ResolveAssemblyReference("$(ProjectDir)");
+    //解决方案目录
+    string solutionDir = Host.ResolveAssemblyReference("$(SolutionDir)");
+    var db = new SqlSugarClient(new ConnectionConfig() { 
+    ConnectionString ="server=192.168.100.81;Initial Catalog=NurseNew;uid=sa;pwd=chainway@123;",
+    DbType = DbType.SqlServer, IsAutoCloseConnection = true }); 
+    db.DbFirst.CreateClassFile("F:\\Repos\\Nurse\\Nurse.Entities\\T4\\Models");      
+#>

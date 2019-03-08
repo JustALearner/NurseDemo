@@ -1,0 +1,17 @@
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\AutoMapperConfiguration.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\AutoMapperConfiguration.pdb
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\AutoMapper.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\Nurse.Entities.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\Nurse.VModel.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\System.ValueTuple.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\SqlSugar.dll
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\Nurse.Entities.pdb
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\Nurse.VModel.pdb
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\AutoMapper.pdb
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\AutoMapper.xml
+F:\Repos\Nurse\AutoMapperConfiguration\bin\Debug\System.ValueTuple.xml
+F:\Repos\Nurse\AutoMapperConfiguration\obj\Debug\AutoMapperConfiguration.csprojAssemblyReference.cache
+F:\Repos\Nurse\AutoMapperConfiguration\obj\Debug\AutoMapperConfiguration.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\AutoMapperConfiguration\obj\Debug\AutoMapperConfiguration.csproj.CopyComplete
+F:\Repos\Nurse\AutoMapperConfiguration\obj\Debug\AutoMapperConfiguration.dll
+F:\Repos\Nurse\AutoMapperConfiguration\obj\Debug\AutoMapperConfiguration.pdb

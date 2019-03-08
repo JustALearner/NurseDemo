@@ -1,0 +1,14 @@
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.IBusiness.dll
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.IBusiness.pdb
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.Common.dll
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.Entities.dll
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.VModel.dll
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\SqlSugar.dll
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.Common.pdb
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.Entities.pdb
+F:\Repos\Nurse\Nurse.IBusiness\bin\Debug\Nurse.VModel.pdb
+F:\Repos\Nurse\Nurse.IBusiness\obj\Debug\Nurse.IBusiness.csprojAssemblyReference.cache
+F:\Repos\Nurse\Nurse.IBusiness\obj\Debug\Nurse.IBusiness.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\Nurse.IBusiness\obj\Debug\Nurse.IBusiness.csproj.CopyComplete
+F:\Repos\Nurse\Nurse.IBusiness\obj\Debug\Nurse.IBusiness.dll
+F:\Repos\Nurse\Nurse.IBusiness\obj\Debug\Nurse.IBusiness.pdb

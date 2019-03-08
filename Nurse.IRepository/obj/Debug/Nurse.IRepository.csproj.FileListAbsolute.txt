@@ -1,0 +1,14 @@
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.IRepository.dll
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.IRepository.pdb
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.Common.dll
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.Entities.dll
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.VModel.dll
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\SqlSugar.dll
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.Common.pdb
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.Entities.pdb
+F:\Repos\Nurse\Nurse.IRepository\bin\Debug\Nurse.VModel.pdb
+F:\Repos\Nurse\Nurse.IRepository\obj\Debug\Nurse.IRepository.csprojAssemblyReference.cache
+F:\Repos\Nurse\Nurse.IRepository\obj\Debug\Nurse.IRepository.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\Nurse.IRepository\obj\Debug\Nurse.IRepository.csproj.CopyComplete
+F:\Repos\Nurse\Nurse.IRepository\obj\Debug\Nurse.IRepository.dll
+F:\Repos\Nurse\Nurse.IRepository\obj\Debug\Nurse.IRepository.pdb
