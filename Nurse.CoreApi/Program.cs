@@ -13,8 +13,8 @@ namespace Nurse.CoreApi
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup(typeof(StartupDevelopment));
+//                .UseStartup(typeof(StartupDevelopment));
 
-        //.UseStartup<Startup>();
+        .UseStartup<Startup>();
     }
 }

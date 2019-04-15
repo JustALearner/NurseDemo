@@ -1,0 +1,8 @@
+F:\Repos\Nurse\Nurse.Entities\bin\Release\Nurse.Entities.dll
+F:\Repos\Nurse\Nurse.Entities\bin\Release\Nurse.Entities.pdb
+F:\Repos\Nurse\Nurse.Entities\bin\Release\SqlSugar.dll
+F:\Repos\Nurse\Nurse.Entities\obj\Release\Nurse.Entities.csprojAssemblyReference.cache
+F:\Repos\Nurse\Nurse.Entities\obj\Release\Nurse.Entities.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\Nurse.Entities\obj\Release\Nurse.Entities.csproj.CopyComplete
+F:\Repos\Nurse\Nurse.Entities\obj\Release\Nurse.Entities.dll
+F:\Repos\Nurse\Nurse.Entities\obj\Release\Nurse.Entities.pdb

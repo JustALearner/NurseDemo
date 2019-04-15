@@ -33,7 +33,7 @@ namespace Nurse.CoreApi.Controllers
         /// <returns></returns>
         [HttpGet(Name ="GetUsers")]
         public async Task<IActionResult> Get([FromQuery]QueryParameters postParameters)
-        {
+                                                                                                                                                                                                                                                                                 {
 
             //var users = await _userBusiness.GetAllEntitiesAsync();
             var users = await _userBusiness.GetPagedEntitiesAsync(postParameters);

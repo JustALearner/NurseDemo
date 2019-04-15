@@ -40,4 +40,10 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Nurse.CoreApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

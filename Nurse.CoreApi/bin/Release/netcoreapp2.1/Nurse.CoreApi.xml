@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nurse.CoreApi</name>
+    </assembly>
+    <members>
+        <member name="T:Nurse.CoreApi.Controllers.UserController">
+            <summary>
+            用户相关
+            </summary>
+        </member>
+        <member name="M:Nurse.CoreApi.Controllers.UserController.Get(Nurse.VModel.QueryParameters)">
+            <summary>
+            获取用户信息列表()
+            </summary>
+            <param name="postParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Nurse.CoreApi.StartupDevelopment.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

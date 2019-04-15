@@ -1,0 +1,6 @@
+F:\Repos\Nurse\Nurse.Common\bin\Release\Nurse.Common.dll
+F:\Repos\Nurse\Nurse.Common\bin\Release\Nurse.Common.pdb
+F:\Repos\Nurse\Nurse.Common\obj\Release\Nurse.Common.csprojAssemblyReference.cache
+F:\Repos\Nurse\Nurse.Common\obj\Release\Nurse.Common.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\Nurse.Common\obj\Release\Nurse.Common.dll
+F:\Repos\Nurse\Nurse.Common\obj\Release\Nurse.Common.pdb
