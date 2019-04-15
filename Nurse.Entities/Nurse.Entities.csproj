@@ -50,6 +50,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TextTemplate1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Test_Vue_Menus.cs" />
     <Compile Include="T_Advice_Blood.cs" />
     <Compile Include="T_Advice_Dispensing.cs" />
     <Compile Include="T_Advice_Exec.cs" />

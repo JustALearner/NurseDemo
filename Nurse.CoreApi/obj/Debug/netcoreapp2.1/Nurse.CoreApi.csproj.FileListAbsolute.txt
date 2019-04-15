@@ -32,5 +32,4 @@ F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.dll
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Swashbuckle.Core.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.xml
-F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\x86\e_sqlite3.dll
-F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\x64\e_sqlite3.dll
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\JsonFile\menus.json

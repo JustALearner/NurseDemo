@@ -3,4 +3,3 @@ F:\Repos\Nurse\Nurse.VModel\bin\Debug\Nurse.VModel.pdb
 F:\Repos\Nurse\Nurse.VModel\obj\Debug\Nurse.Model.csproj.CoreCompileInputs.cache
 F:\Repos\Nurse\Nurse.VModel\obj\Debug\Nurse.VModel.dll
 F:\Repos\Nurse\Nurse.VModel\obj\Debug\Nurse.VModel.pdb
-F:\Repos\Nurse\Nurse.VModel\obj\Debug\Nurse.Model.csprojAssemblyReference.cache
