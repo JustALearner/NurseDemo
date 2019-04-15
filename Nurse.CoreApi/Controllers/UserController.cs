@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
@@ -12,7 +13,8 @@ namespace Nurse.CoreApi.Controllers
     /// 用户相关
     /// </summary>
     [ApiController]
-    [Route("api/Users")] 
+    [Route("api/Users")]
+    [EnableCors("Domain")]
     public class UserController : ControllerBase
     {
         private readonly IUserBusiness _userBusiness;

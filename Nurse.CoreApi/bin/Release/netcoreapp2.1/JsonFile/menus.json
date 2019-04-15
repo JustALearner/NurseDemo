@@ -1,0 +1,51 @@
+{
+  "menus": [
+    {
+      "title": "systemmanagement",
+      "path": "",
+      "icon": "el-icon-menu",
+      "childMenu": [
+        {
+          "title": "userinfo",
+          "path": "/layout/userInfos",
+          "flag": false
+
+        },
+        {
+          "title": "menuinfo",
+          "path": "/layout/menusList",
+          "flag": true
+
+        },
+        {
+          "title": "rightinfo",
+          "path": "/layout/rightList",
+          "flag": true
+
+        },
+        {
+          "title": "roleinfo",
+          "path": "/layout/roleList",
+          "flag": true
+
+        }
+      ]
+    },
+    {
+      "title": "other",
+      "icon": "el-icon-star-off",
+      "childMenu": [
+        {
+          "title": "chart",
+          "path": "/layout/charts"
+
+        },
+        {
+          "title": "editor",
+          "path": "/layout/editor"
+
+        }
+      ]
+    }
+  ]
+}

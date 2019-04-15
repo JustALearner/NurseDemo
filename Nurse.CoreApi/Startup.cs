@@ -79,6 +79,8 @@ namespace Nurse.CoreApi
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserBusiness, UserBusiness>();
+            services.AddCors(options => options.AddPolicy("Domain",
+                builder => builder.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -94,9 +96,14 @@ namespace Nurse.CoreApi
             }
             
             app.UseHttpsRedirection();
-            app.UseMvc();                     
-            app.UseSwagger().UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"));
-           
+            app.UseMvc();
+            app.UseSwagger().UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
+            });
+            app.UseCors("Domain");
+
         }
     }
 }
