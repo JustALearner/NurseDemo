@@ -36,7 +36,7 @@ namespace Nurse.CoreApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             //            services.AddMemoryCache();
             //            var cacheProvider = Configuration["CachePorviderName"];
             //            if (cacheProvider == "CacheMemory")
@@ -107,7 +107,7 @@ namespace Nurse.CoreApi
                 return new UrlHelper(actionContext);
             });
             services.AddAutoMapper();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+          
             services.AddSwaggerGen(options =>
 
                 {
@@ -160,9 +160,11 @@ namespace Nurse.CoreApi
                 app.UseHsts();
             }
 
-//            app.UseHttpsRedirection();
+            //            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseMvc();
+          
 
-           
             app.UseSwagger().UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
@@ -170,8 +172,7 @@ namespace Nurse.CoreApi
             });
 
             app.UseCors("Domain");
-            app.UseMvc();
-            app.UseAuthentication();
+           
 
         }
     }
