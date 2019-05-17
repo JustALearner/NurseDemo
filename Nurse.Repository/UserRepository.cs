@@ -11,6 +11,9 @@ namespace Nurse.Repositories
         public UserRepository(DbFactory dbFactory) : base(dbFactory)
         {
         }
+
+
+       
     }
 
 }

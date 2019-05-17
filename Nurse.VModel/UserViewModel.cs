@@ -13,7 +13,7 @@ namespace Nurse.VModel
         /// Default:
         /// Nullable:False
         /// </summary>           
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Desc:

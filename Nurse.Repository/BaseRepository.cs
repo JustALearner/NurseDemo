@@ -54,5 +54,20 @@ namespace Nurse.Repositories
         {
             return await Task.Factory.StartNew<T>(() => Db.Queryable<T>().InSingle(id));
         }
+       
+        public IList<T> GetEntityBySql(string sql)
+        {
+            try
+            {
+
+                var list = Db.SqlQueryable<T>(sql).ToList();
+                return list;
+            }
+            catch (System.Exception ex)
+            {
+
+                throw;
+            }
+        }
     }
 }

@@ -15,7 +15,10 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="8.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="IdentityModel" Version="4.0.0-preview.2.6" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0-preview3-35497" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="2.2.0-preview3-35497" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
     <PackageReference Include="sqlSugarCore" Version="4.9.9.2" />
@@ -28,6 +31,7 @@
     <ProjectReference Include="..\Nurse.Common\Nurse.Common.csproj" />
     <ProjectReference Include="..\Nurse.IBusiness\Nurse.IBusiness.csproj" />
     <ProjectReference Include="..\Nurse.Repository\Nurse.Repositories.csproj" />
+    <ProjectReference Include="..\Nurse.Token\Nurse.Token.csproj" />
     <ProjectReference Include="..\Nurse.VModel\Nurse.Model.csproj" />
   </ItemGroup>
 

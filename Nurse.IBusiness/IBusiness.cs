@@ -14,6 +14,7 @@ namespace Nurse.IBusiness
         Task<IEnumerable<T>> GetAllEntitiesAsync();
 
         Task<T> GetEntityByIdAsync(int id);
+        IList<T> GetEntityBySql(string sql);
         void AddEntity(T user);
         void Delete(T user);
         void Update(T user);

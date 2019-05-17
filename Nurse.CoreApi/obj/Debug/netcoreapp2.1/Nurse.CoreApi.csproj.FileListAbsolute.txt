@@ -1,3 +1,5 @@
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\JsonFile\menus.json
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.xml
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.deps.json
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.runtimeconfig.json
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.runtimeconfig.dev.json
@@ -10,16 +12,23 @@ F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Entities.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IBusiness.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IRepository.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Repositories.dll
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Token.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.VModel.dll
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Swashbuckle.Core.dll
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\AutoMapperConfiguration.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Business.pdb
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Business.dll.config
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Common.pdb
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Common.dll.config
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IBusiness.pdb
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IBusiness.dll.config
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Repositories.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Repositories.dll.config
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Token.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.VModel.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.Entities.pdb
 F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IRepository.pdb
+F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.IRepository.dll.config
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.csprojAssemblyReference.cache
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.csproj.CoreCompileInputs.cache
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.RazorAssemblyInfo.cache
@@ -30,6 +39,3 @@ F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.RazorTargetAs
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.csproj.CopyComplete
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.dll
 F:\Repos\Nurse\Nurse.CoreApi\obj\Debug\netcoreapp2.1\Nurse.CoreApi.pdb
-F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Swashbuckle.Core.dll
-F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\Nurse.CoreApi.xml
-F:\Repos\Nurse\Nurse.CoreApi\bin\Debug\netcoreapp2.1\JsonFile\menus.json

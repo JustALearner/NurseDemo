@@ -4,6 +4,15 @@
         <name>Nurse.CoreApi</name>
     </assembly>
     <members>
+        <member name="M:Nurse.CoreApi.AuthMidware.AuthToken.IssueJwt(Nurse.Token.Model.TokenModel,System.TimeSpan,System.TimeSpan)">
+            <summary>
+            获取JWT字符串并存入缓存
+            </summary>
+            <param name="tokenModel"></param>
+            <param name="expiresSliding"></param>
+            <param name="expiresAbsoulte"></param>
+            <returns></returns>
+        </member>
         <member name="T:Nurse.CoreApi.Controllers.UserController">
             <summary>
             用户相关

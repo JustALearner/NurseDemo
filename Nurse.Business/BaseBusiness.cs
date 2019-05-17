@@ -27,7 +27,10 @@ namespace Nurse.Business
         {
             return _repository.GetEntityByIdAsync(id);
         }
-
+        public IList<T> GetEntityBySql(string sql)
+        {
+            return _repository.GetEntityBySql(sql);
+        }
 
         public async Task<IEnumerable<T>> GetAllEntitiesAsync()
         {

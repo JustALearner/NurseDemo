@@ -17,6 +17,7 @@ namespace Nurse.IRepository
         void AddEntity(T user);
         void Delete(T user);
         void Update(T user);
+        IList<T> GetEntityBySql(string sql);
     }
 
 }

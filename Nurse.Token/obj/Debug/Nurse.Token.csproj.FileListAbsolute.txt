@@ -1,0 +1,6 @@
+F:\Repos\Nurse\Nurse.Token\bin\Debug\Nurse.Token.dll
+F:\Repos\Nurse\Nurse.Token\bin\Debug\Nurse.Token.pdb
+F:\Repos\Nurse\Nurse.Token\obj\Debug\Nurse.Token.csproj.CoreCompileInputs.cache
+F:\Repos\Nurse\Nurse.Token\obj\Debug\Nurse.Token.dll
+F:\Repos\Nurse\Nurse.Token\obj\Debug\Nurse.Token.pdb
+F:\Repos\Nurse\Nurse.Token\obj\Debug\Nurse.Token.csprojAssemblyReference.cache
