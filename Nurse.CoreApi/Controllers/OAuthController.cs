@@ -80,15 +80,16 @@ namespace Nurse.CoreApi.Controllers
             //            if (user == null) return Unauthorized();
             if (user == null) return Unauthorized();
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("this is a security key");
+            
+            var key = Encoding.ASCII.GetBytes(_jwtSetting.SecretKey);
             var authTime = DateTime.UtcNow;
             var expiresAt = authTime.AddDays(7);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(JwtClaimTypes.Audience,"api"),
-                    new Claim(JwtClaimTypes.Issuer,"http://localhost:44319"),
+                    new Claim(JwtClaimTypes.Audience,_jwtSetting.Audience),
+                    new Claim(JwtClaimTypes.Issuer,_jwtSetting.Issuer),
                     new Claim(JwtClaimTypes.Id, user.UserCode.ToString()),
                     new Claim(JwtClaimTypes.Name, user.UserName)
                 }),

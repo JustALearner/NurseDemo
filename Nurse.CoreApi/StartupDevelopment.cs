@@ -14,7 +14,6 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
 using Nurse.Business;
 using Nurse.Common.CacheHelper;
 using Nurse.IBusiness;
@@ -124,38 +123,38 @@ namespace Nurse.CoreApi
 
             var dict = new Dictionary<string, IEnumerable<string>>();
             dict.Add("Bearer", Enumerable.Empty<string>());
-            services.AddSwaggerGen(options =>
-                {
-
-                    options.SwaggerDoc("v1", new OpenApiInfo
-                    {
-                        Version = "v1.0",
-                        Title = "Nurse接口文档",
-                        Description = "RESTful API for Nurse",
-                        TermsOfService = null,
-                        Contact = new OpenApiContact {Name = "zac", Email = "636984860@QQ.com", Url = null}
-                    });
-
-                    // 注释
-                    options.IncludeXmlComments(
-                        $"{AppContext.BaseDirectory}{Path.DirectorySeparatorChar}{_hostingEnv.ApplicationName}.xml");
-
-                    // Tags描述
-                    //                options.DocumentFilter<TagDescriptionsDocumentFilter>();
-                    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                    {
-                        Description = "请输入带有Bearer的Token",
-                        Name = "Authorization",
-                        In = ParameterLocation.Header,
-                        Type = SecuritySchemeType.ApiKey
-
-                    });
-
-                    //Json Token认证方式，此方式为全局添加
-//                    options.AddSecurityRequirement(dict);
-
-                }
-            );
+//            services.AddSwaggerGen(options =>
+//                {
+//
+//                    options.SwaggerDoc("v1", new OpenApiInfo
+//                    {
+//                        Version = "v1.0",
+//                        Title = "Nurse接口文档",
+//                        Description = "RESTful API for Nurse",
+//                        TermsOfService = null,
+//                        Contact = new OpenApiContact {Name = "zac", Email = "636984860@QQ.com", Url = null}
+//                    });
+//
+//                    // 注释
+//                    options.IncludeXmlComments(
+//                        $"{AppContext.BaseDirectory}{Path.DirectorySeparatorChar}{_hostingEnv.ApplicationName}.xml");
+//
+//                    // Tags描述
+//                    //                options.DocumentFilter<TagDescriptionsDocumentFilter>();
+//                    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+//                    {
+//                        Description = "请输入带有Bearer的Token",
+//                        Name = "Authorization",
+//                        In = ParameterLocation.Header,
+//                        Type = SecuritySchemeType.ApiKey
+//
+//                    });
+//
+//                    //Json Token认证方式，此方式为全局添加
+////                    options.AddSecurityRequirement(dict);
+//
+//                }
+//            );
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserBusiness, UserBusiness>();
@@ -174,7 +173,7 @@ namespace Nurse.CoreApi
             app.UseDeveloperExceptionPage();
             app.UseHsts();
             app.UseHttpsRedirection();
-            app.UseSwagger().UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"));
+//            app.UseSwagger().UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"));
             app.UseMvc();
         }
     }

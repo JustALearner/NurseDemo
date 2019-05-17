@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using AutoMapper;
 using IdentityModel;
@@ -12,14 +14,13 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
 using Nurse.Business;
 using Nurse.IBusiness;
 using Nurse.IRepository;
 using Nurse.Repositories;
 using Nurse.Token.Model;
 using SqlSugar;
-
+using Swashbuckle.AspNetCore.Swagger;
 namespace Nurse.CoreApi
 {
     public class Startup
@@ -71,9 +72,9 @@ namespace Nurse.CoreApi
                         NameClaimType = JwtClaimTypes.Name,
                         RoleClaimType = JwtClaimTypes.Role,
 
-                        ValidIssuer = "http://localhost:44319",
-                        ValidAudience = "api",
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("this is a security key"))
+                        ValidIssuer = jwtSettings.Issuer,
+                        ValidAudience = jwtSettings.Audience,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.SecretKey))
 
                         /***********************************TokenValidationParameters的参数默认值***********************************/
                         // RequireSignedTokens = true,
@@ -107,36 +108,32 @@ namespace Nurse.CoreApi
                 return new UrlHelper(actionContext);
             });
             services.AddAutoMapper();
-          
+            var dict = new Dictionary<string, IEnumerable<string>>();
+            dict.Add("Bearer", Enumerable.Empty<string>());
             services.AddSwaggerGen(options =>
 
                 {
 
-                    options.SwaggerDoc("v1", new OpenApiInfo
+                    options.SwaggerDoc("v1", new Info
                     {
                         Version = "v1.0",
                         Title = "Nurse接口文档",
                         Description = "RESTful API for Nurse",
                         TermsOfService = null,
-                        Contact = new OpenApiContact { Name = "zac", Email = "636984860@QQ.com", Url = null }
+                        Contact = new Contact { Name = "zac", Email = "636984860@QQ.com", Url = null }
                     });
 
                     // 注释
                     options.IncludeXmlComments($"{AppContext.BaseDirectory}{Path.DirectorySeparatorChar}{_hostingEnv.ApplicationName}.xml");
 
-                    // Tags描述
-                    //                options.DocumentFilter<TagDescriptionsDocumentFilter>();
+                    options.AddSecurityDefinition("Bearer", new ApiKeyScheme {  In = "header", Description = "请输入带有Bearer的Token", Name = "Authorization", Type = "apiKey" });
+                    options.AddSecurityRequirement(dict);
+
 
                     // Tags描述
                     //                options.DocumentFilter<TagDescriptionsDocumentFilter>();
-                    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                    {
-                        Description = "请输入带有Bearer的Token",
-                        Name = "Authorization",
-                        In = ParameterLocation.Header,
-                        Type = SecuritySchemeType.ApiKey
-
-                    });
+//                    options.AddSecurityDefinition("Bearer",new BasicAuthScheme{ });
+//                    options.OperationFilter<AssignOperationVendorExtensions>();
                 }
 
             );

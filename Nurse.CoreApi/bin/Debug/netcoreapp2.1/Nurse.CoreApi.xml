@@ -4,6 +4,13 @@
         <name>Nurse.CoreApi</name>
     </assembly>
     <members>
+        <member name="M:Nurse.CoreApi.AssignOperationVendorExtensions.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            apply
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
         <member name="M:Nurse.CoreApi.AuthMidware.AuthToken.IssueJwt(Nurse.Token.Model.TokenModel,System.TimeSpan,System.TimeSpan)">
             <summary>
             获取JWT字符串并存入缓存
